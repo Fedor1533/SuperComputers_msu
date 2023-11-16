@@ -1,2 +1,2 @@
 # SuperComputers_msu
-High Performance Computing on Super Computers - Moscow State University
+Computing on Super Computers using OpenMP, MPI - Moscow State University
