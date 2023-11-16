@@ -1,0 +1,7 @@
+#BSUB -n 4
+#BSUB -x
+#BSUB -W 00:10
+#BSUB -o "stdout160_32.out"
+#BSUB -e "tmp.err"
+#BSUB -R "span[hosts=1]"
+OMP_NUM_THREADS=32 ./task2_omp

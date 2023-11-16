@@ -1,0 +1,1 @@
+xlC_r -std=c++11 -o task2_omp task2_omp.cpp includes/calculations.cpp -qsmp=omp
