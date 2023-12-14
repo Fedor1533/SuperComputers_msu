@@ -1,0 +1,7 @@
+#BSUB -n 2
+#BSUB -W 00:30
+#BSUB -o "out_%J.out"
+#BSUB -e "tmp.err"
+#BSUB -R "affinity[core(4)]"
+OMP_NUM_THREADS=4 mpiexec ./task3_mpi
+
